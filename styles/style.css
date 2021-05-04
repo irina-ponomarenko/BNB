@@ -347,6 +347,7 @@ a:active {
     top: -22px;
     bottom: -20px;
     right: 0;
+    border: 1px solid  #e8e9eb;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default{
@@ -379,7 +380,7 @@ a:active {
     position: absolute;
     background: #FFFFFF;
     width: 50px;
-    height: 35px;
+    height: 30px;
     border-radius: 10px;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
     display: flex;
@@ -390,7 +391,7 @@ a:active {
     font-weight: bold;
     font-size: 12px;
     color: #000000;
-    top: -50px;
+    top: -45px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -416,14 +417,13 @@ a:active {
 }
 
 .title-deposit{
-    margin-bottom: 46px;
+    margin-bottom: 56px;
     font-weight: bold;
     font-size: 16px;
 }
 
-
 .ui-slider .slider-range-inverse {
-    background: #CCC;
+    background: #e8e9eb;
     position: absolute;
     right: 0;
 }
@@ -432,5 +432,64 @@ a:active {
     background: transparent;
 }
 
+.amount-field{
+    background: #F2F3F4;
+    border: 1px solid #C12088;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 202px;
+    height: 50px;
+    padding: 14px 23px 14px 20px;
+    position: relative;
+    -webkit-user-select: text;
+    cursor: auto;
+    -webkit-appearance: textfield;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+}
+
+.amount-field:before{
+    content: 'Max';
+    position: absolute;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #C12088;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.amount-title{
+    margin-bottom: 28px;
+}
+
+.container-counter{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.container-counter::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    background: linear-gradient(266.61deg, #FFFFFF -1.47%, #C12088 46.7%, #FFFFFF 93.87%);
+}
+
+.deposit{
+    width: 80%;
+}
 
 
