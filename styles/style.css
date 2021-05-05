@@ -571,7 +571,7 @@ a:active {
     border-radius: 10px;
     background-image: linear-gradient(266.03deg, #C12088 24.24%, #7F0793 68.14%);
     border-image: -moz-linear-gradient(266.03deg, #C12088 24.24%, #7F0793 68.14%);
-    border-image: -webkit-gradient(266.03deg, #C12088 24.24%, #7F0793 68.14%);
+    background: -webkit-linear-gradient(left, #c12088 0%,#7f0793 100%);
     box-sizing: border-box;
     padding: 1px;
     width: fit-content;
