@@ -502,11 +502,13 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .item-info{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .footer-counter{
