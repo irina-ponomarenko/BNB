@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
 
 
-    //--------------------------open window faq----------------------//
+    //--------------------------open window faq and connect ----------------------//
 
     $(".faq-btn").click(function (){
        $(".wrapper-dark").addClass("active-bg");
@@ -21,9 +21,11 @@ $(document).ready(function(){
     });
 
     $(".close-window").click(function (){
-        $(this).closest(".wrapper-dark").removeClass("active-bg");
-        $(this).closest(".wrapper-dark").find(".container-faq").removeClass("active-faq");
-        $(this).closest(".wrapper-dark").find(".container-connect").removeClass("active-connect");
+        let darkWrap =  $(this).closest(".wrapper-dark");
+
+        darkWrap.removeClass("active-bg");
+        darkWrap.find(".container-faq").removeClass("active-faq");
+        darkWrap.find(".container-connect").removeClass("active-connect");
     });
 
     $(".connect").click(function (){
