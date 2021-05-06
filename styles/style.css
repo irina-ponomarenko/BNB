@@ -1063,6 +1063,15 @@ a:active {
 }
 
 .mobile-open,
-.mobile-fade{
+.mobile-fade,
+.warn-container{
     display: none;
+}
+
+#warn.hidden {
+    display: none;
+}
+#warn.fade-in {
+    display: flex;
+    transition: .3s;
 }

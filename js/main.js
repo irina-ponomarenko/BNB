@@ -29,4 +29,19 @@ $(document).ready(function(){
         $(".container-connect").addClass("active-connect");
     });
 
+    //----------------open warn messages---------------//
+
+
+    setTimeout(function(){
+        $("#warn").fadeIn("slow");
+    }, 2000);
+
+    setTimeout(function(){
+        $("#warn1").fadeIn("slow");
+    }, 3000);
+
+    $(".warn-btn").click(function (){
+       $(this).closest(".warn-container").hide("slow");
+    });
+
 });

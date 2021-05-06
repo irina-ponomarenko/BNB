@@ -154,6 +154,14 @@
         padding: 20px;
         min-height: 286px;
     }
+
+    .info-warn{
+        margin-left: 15px;
+    }
+
+    .warn-btn{
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 920px){
@@ -238,6 +246,19 @@
 
     .item-dashboard:last-child{
         margin-right: 0;
+    }
+
+    .warn-container{
+        padding: 10px 0 6px;
+        min-height: 50px;
+    }
+
+    .title-warn{
+        font-size: 16px;
+    }
+
+    .info-warn p{
+        font-size: 10px;
     }
 
 }
@@ -565,6 +586,7 @@
 
     .item-dashboard > div {
         padding: 10px;
+        width: 108px;
     }
 
     .container-connect {
@@ -573,5 +595,38 @@
 
     .item-dashboard, .item-footer {
         margin: 4px;
+    }
+
+    .title-faq-item {
+        font-size: 14px;
+    }
+
+    .connect {
+        margin-right: 5px;
+    }
+
+    .item-info p {
+        font-size: 16px;
+    }
+
+    .container-dashboard-info {
+        padding: 20px;
+    }
+
+    .title-footer-dashboard{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .item-faq {
+        padding: 10px 0 10px 0;
+    }
+
+    .container-list-faq {
+        max-height: 384px;
+    }
+
+    .main-container-center{
+        min-height: 200px;
     }
 }
