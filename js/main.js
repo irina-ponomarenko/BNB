@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         $(".item-faq").children(".container-info-faq").slideUp(300);
         $(".close-faq-item").removeClass('active-btn-faq');
-        
+
         if (child.is(":hidden")) {
             child.slideDown(300);
             $(this).find('.close-faq-item').addClass('active-btn-faq');
