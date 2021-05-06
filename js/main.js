@@ -2,10 +2,12 @@ $(document).ready(function(){
     //--------------------------dropdown faq----------------------//
 
     $(".item-faq").click(function() {
+        let child = $(this).children(".container-info-faq");
+
         $(".item-faq").children(".container-info-faq").slideUp(300);
         $(".close-faq-item").removeClass('active-btn-faq');
-        if ($(this).children(".container-info-faq").is(":hidden")) {
-            $(this).children(".container-info-faq").slideDown(300);
+        if (child.is(":hidden")) {
+            child.slideDown(300);
             $(this).find('.close-faq-item').addClass('active-btn-faq');
         };
     });

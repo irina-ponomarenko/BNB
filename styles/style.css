@@ -1044,6 +1044,10 @@ a:active {
     color: #303030;
 }
 
+.info-warn{
+    max-width: 80%;
+}
+
 .error-warn .title-warn,
 .error-warn .info-warn p,
 .error-warn .warn-btn{
